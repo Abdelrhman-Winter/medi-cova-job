@@ -582,7 +582,7 @@ export default function JobDetailsSection() {
             {/* Checkbox Section */}
             <div className="mt-4 flex items-center">
               <Checkbox />
-              <span className="text-lg text-prim font-semibold">
+              <span className="text-sm md:text-base text-prim font-semibold">
                 Hide Salary in job post
               </span>
             </div>
