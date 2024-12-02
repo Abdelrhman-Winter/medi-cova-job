@@ -11,13 +11,13 @@ import {
 } from "@mui/material";
 import CustomInput from "../inputs/CustomInput";
 import CustomSelector from "../inputs/CustomSelect";
+import CountrySelector from "../inputs/CountrySelector";
 export default function JobDetailsSection() {
   const [selectedValue1, setSelectedValue1] = React.useState(" ");
   const [selectedValue2, setSelectedValue2] = React.useState(" ");
   const [selectedValue3, setSelectedValue3] = React.useState(" ");
   const [selectedValue4, setSelectedValue4] = React.useState(" ");
   const [selectedValue5, setSelectedValue5] = React.useState(" ");
-  const [selectedValue6, setSelectedValue6] = React.useState(" ");
 
   const options = [
     { value: "option1", label: "Option 1" },
@@ -370,17 +370,13 @@ export default function JobDetailsSection() {
 
           {/* Job Location */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <CustomSelector
-              label="Job Location"
-              options={options}
-              selectedValue={selectedValue5}
-              onChange={setSelectedValue5}
-            />
+            <CountrySelector />
+
             <CustomSelector
               label="City / Area"
               options={options}
-              selectedValue={selectedValue6}
-              onChange={setSelectedValue6}
+              selectedValue={selectedValue5}
+              onChange={setSelectedValue5}
             />
           </div>
           {/*Experince Range */}

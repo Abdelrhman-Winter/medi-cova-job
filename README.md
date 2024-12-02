@@ -59,7 +59,8 @@ This project includes several custom-built components for enhanced user experien
 ### 3. **Custom Inputs**
 
 - **Text Input**: A custom input field designed for text entries, located in the `input` folder.
-- **Dropdown Select Input**: A custom dropdown select input that integrates with the Material UI `Select` component.
+- **Dropdown Select Input**: A custom dropdown select input that integrates with the Material UI `Select` component, located in the `input` folder..
+- **CountrySelector Input**:: A custom input component allowing users to select countries, located in the `input` folder..
 
 ### 4. **Custom Textarea**
 
