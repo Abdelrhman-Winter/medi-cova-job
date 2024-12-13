@@ -1,6 +1,3 @@
-Here’s a tailored README for your web page called `medi-cova-job`, focusing on the specific versions used (Next.js, TypeScript, Material UI, Tailwind CSS) and highlighting your custom components:
-
----
 
 # Medi-Cova Job
 
